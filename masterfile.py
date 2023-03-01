@@ -4,6 +4,9 @@
 # Spring 2023
 # Lab 4
 
+# Imports:
+from datetime import datetime
+
 # Part A: Output Reverse Input String - Gianni
 
 
@@ -11,4 +14,7 @@
 
 
 # Part C: Output Current Time In Military Time - Giovanni
+current = datetime.now()
+currenttime = current.strftime('%H%M')
+print('Current Time Is: ', currenttime)
 
