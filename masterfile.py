@@ -1,4 +1,3 @@
-
 # Zainab Mahdi, Gianni Oquendo, Giovanni Lopez
 # CSE 5408
 # Group 4
@@ -9,7 +8,13 @@
 from datetime import datetime
 
 # Part A: Output Reverse Input String - Gianni
+message = input("Enter a message: ")
 
+def reverse():
+	print(f"Message in reverse: {message[::-1]}")
+
+reverse()
+input()
 
 # Part B: Check If Entered Number Is Prime - Zainab
 num = int(input("input the number to check it "))
